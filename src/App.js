@@ -6,25 +6,25 @@ function App(props) {
   const expenses = [
     {
       id: 'e1',
-      title: 'Toilet Paper',
+      title: 'Iphone 13',
       amount: 150,
       date: new Date(2022, 11, 31)
     },
     {
       id: 'e2',
-      title: 'New TV',
+      title: 'MacBook Air',
       amount: 50000,
-      date: new Date(2022, 9, 11)
+      date: new Date(2019, 9, 11)
     },
     {
       id: 'e3',
-      title: 'Car Insurance',
+      title: 'iPad',
       amount: 1000,
-      date: new Date(2022, 3, 30)
+      date: new Date(2020, 3, 30)
     },
     {
       id: 'e4',
-      title: 'New Desk (Wooden)',
+      title: 'MSI Modern 15',
       amount: 4500,
       date: new Date(2021, 4, 12)
     },
