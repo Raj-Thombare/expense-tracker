@@ -4,10 +4,10 @@
     width: 5.5rem;
     height: 5.5rem;
     border: 1px solid #ececec;
-    background-color: #2a2a2a;
+    background-color: hsl(0, 0%, 16%);
     color: white;
-    border-radius: 12px;
     align-items: center;
+    border-radius: 12px;
     justify-content: center;
   }
   
