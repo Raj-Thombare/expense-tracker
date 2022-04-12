@@ -1,5 +1,5 @@
 import Expenses from './components/Expenses/Expenses'
-import './App.css';
+import NewExpense from './NewExpense/NewExpense';
 
 function App(props) {
 
@@ -32,6 +32,7 @@ function App(props) {
   
   return (
     <div className="App">
+      <NewExpense />
       <Expenses expenses={expenses}/>
     </div>
   )
