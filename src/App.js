@@ -29,10 +29,14 @@ function App(props) {
       date: new Date(2021, 4, 12)
     },
   ];
+
+  const dataHandler = expense => {
+    console.log(expense)
+  }
   
   return (
     <div className="App">
-      <NewExpense />
+      <NewExpense onGetData={dataHandler} />
       <Expenses expenses={expenses}/>
     </div>
   )
