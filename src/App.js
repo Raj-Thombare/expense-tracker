@@ -13,7 +13,7 @@ const dummy_expenses = [
     id: "e2",
     title: "MacBook Air",
     amount: 50000,
-    date: new Date(2019, 9, 11),
+    date: new Date(2022, 9, 11),
   },
   {
     id: "e3",
