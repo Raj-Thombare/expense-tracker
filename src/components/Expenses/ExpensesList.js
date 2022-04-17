@@ -5,7 +5,7 @@ const ExpensesList = (props) => {
   const filteredData = props.data;
 
   if (filteredData.length === 0) {
-    return <p className="expenses-list__fallback">No expenses found!</p>;
+    return <h2 className="expenses-list__fallback">No expenses found!</h2>;
   }
 
   return (
