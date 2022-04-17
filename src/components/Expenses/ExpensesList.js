@@ -1,15 +1,15 @@
 import ExpenseItem from "./ExpenseItem";
+import './ExpensesList.css';
 
 const ExpensesList = (props) => {
   const filteredData = props.data;
-  console.log(typeof filteredData);
 
   if (filteredData.length === 0) {
-    return <p>No expenses found!</p>;
+    return <p className="expenses-list__fallback">No expenses found!</p>;
   }
-  
+
   return (
-    <ul>
+    <ul className="expenses-list">
       {filteredData.map((expense) => (
         <ExpenseItem
           key={expense.id}
