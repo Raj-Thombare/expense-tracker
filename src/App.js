@@ -6,7 +6,7 @@ const dummy_expenses = [
   {
     id: "e1",
     title: "Iphone 13",
-    amount: 150,
+    amount: 30000,
     date: new Date(2022, 11, 31),
   },
   {
@@ -17,15 +17,33 @@ const dummy_expenses = [
   },
   {
     id: "e3",
+    title: "AirPods",
+    amount: 20000,
+    date: new Date(2022, 3, 11),
+  },
+  {
+    id: "e4",
     title: "iPad",
     amount: 1000,
     date: new Date(2020, 3, 30),
   },
   {
-    id: "e4",
+    id: "e5",
+    title: "MacBook Pro",
+    amount: 2000,
+    date: new Date(2020, 7, 30),
+  },
+  {
+    id: "e6",
     title: "MSI Modern 15",
     amount: 4500,
     date: new Date(2021, 4, 12),
+  },
+  {
+    id: "e7",
+    title: "Boat AirDopes",
+    amount: 2000,
+    date: new Date(2021, 11, 12),
   }
 ];
 
